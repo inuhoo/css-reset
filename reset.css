@@ -1,0 +1,68 @@
+/* ----------------- */
+/* Inuhoo Reset V0.1 */
+/* ----------------- */
+
+
+/* use border box by default */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* allow inheritance to cascade */
+* {
+    vertical-align: baseline;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* set logical body defaults */
+body {
+    padding: 5px;
+    background: white;
+	line-height: 1;
+	color: black;
+}
+
+/* REMEMBER TO SET NEW FOCUS RULES */
+:focus {
+	outline: 0;
+    }
+
+/* give more space to high heiarchy text */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre,
+blockquote,
+form,
+ul,
+ol,
+dl {
+    margin: 20px 0;
+}
+
+/* indent quotes and lists  */
+li,
+dd,
+blockquote {
+    margin-left: 40px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
