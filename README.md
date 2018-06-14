@@ -1,11 +1,13 @@
 Inuhoo's CSS Reset
 ======
-**Inuhoo's CSS Reset ** is a simple CSS reset file for
+**Inuhoo's CSS Reset** is a simple CSS reset file for neutralising the varied browser default element styles, installation is simple
+
 
 ```
-$  <link rel="stylesheet" href="reset.css">
+$  <link rel="stylesheet" href="https://raw.githubusercontent.com/inuhoo/css-reset/master/reset.css">
 $
 ```
+
 ## Version
 * Version 0.1
 
